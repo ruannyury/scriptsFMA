@@ -1,3 +1,4 @@
+// Script do Google Docs que ordena a enumeração dos headings do arquivo
 function arrumarEnumeracaoFaxina() {
   var body = DocumentApp.getActiveDocument().getBody();
   var elements = body.getNumChildren();
